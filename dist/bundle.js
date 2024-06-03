@@ -1,1 +1,1 @@
-(()=>{"use strict";new class{constructor(s,t,i){this.title=s,this.author=t,this.pages=i}info(){console.log(`${this.title} by ${this.author} has ${this.pages} pages.`)}}("Atomic Habits","James Clear",837),console.log("This works")})();
+(()=>{"use strict";class t{constructor(t,s,o){this.title=t,this.author=s,this.pages=o}info(){console.log(`${this.title} by ${this.author} has ${this.pages} pages.`)}}let s=new Array;function o(o,e,i){const a=new t(o,e,i);s.push(a)}o("How to solve it","George Polya",140),o("Hyper Focus","James Author",563),console.table(s)})();
