@@ -1,0 +1,1 @@
+(()=>{"use strict";new class{constructor(s,t,i){this.title=s,this.author=t,this.pages=i}info(){console.log(`${this.title} by ${this.author} has ${this.pages} pages.`)}}("Atomic Habits","James Clear",837),console.log("This works")})();
