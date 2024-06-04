@@ -1,5 +1,5 @@
 import { Book } from "./book";
-
+import { displayLibrarayDom } from "./dom";
 let library = new Array();
 
 function addBook(title, author, pages){
@@ -12,6 +12,8 @@ function displayBooks(){
 }
 addBook('How to solve it', 'George Polya', 140);
 addBook('Hyper Focus', 'James Author', 563);
-displayBooks();
+displayLibrarayDom();
+
+
 
 export { library };
